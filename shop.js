@@ -60,7 +60,7 @@ function checkoutButtonClicked() {
         alert("Your cart is empty");
     } else {
         localStorage.setItem('totalAmount', totalPrice); // Store total in local storage
-        window.location.href = "Checkout.html"; // Navigate to Checkout.html
+        window.location.href = "checkout.html"; // Navigate to Checkout.html
     }
 }
 
